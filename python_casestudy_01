@@ -1,0 +1,21 @@
+Name:- Deepesh verma 
+Branch:- CSE 
+Section : B
+UNIVERSITY ROLL NO =202401100200125
+CODE:-
+a=int(input("Enter the 1st item price: "))
+b=int(input("Enter the 2nd item price: "))
+c=int(input ("Enter the 3rd item price: "))
+d=a+b+c
+if(d>50):
+  d=d-d*0.1
+  print("total price after discount:-",d)
+else:
+  print("total price :-",d)  
+OUTPUT:-
+Enter the 1st item price: 4
+Enter the 2nd item price: 6
+Enter the 3rd item price: 88
+total price after discount:- 88.2
+________________________________________
+
